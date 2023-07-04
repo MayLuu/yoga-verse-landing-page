@@ -1,5 +1,5 @@
 import React from "react";
-import BannerBackground from "../Assets/home-banner-background.png";
+import BannerBackground from "../Assets/banner-bg.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import MobileHomeImage from "../Assets/mobile-home.png";
 import Navbar from "./Navbar";
@@ -8,7 +8,8 @@ import { FiDownload } from "react-icons/fi";
 const Home = () => {
   return (
     <div className="home-container">
-      <Navbar />
+      <Navbar class="nav" />
+
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />

@@ -66,14 +66,15 @@ nav {
 .home-banner-container {
   position: relative;
   display: flex;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 .home-bannerImage-container {
   position: absolute;
-  top: -100px;
-  right: -170px;
+  top: -400px;
+  right: -400px;
   z-index: -2;
   max-width: 700px;
+  transform: rotate(-90deg);
 }
 .home-image-section {
   max-width: 600px;
@@ -103,7 +104,7 @@ nav {
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #55CABF;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -121,13 +122,14 @@ nav {
   text-decoration: none;
   display: flex;
   align-items: center;
+  color: white;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #fe9e0d;
+  background-color: #55CABF;
 }
 .about-section-container {
   margin-top: 20rem;
@@ -140,10 +142,12 @@ nav {
   position: absolute;
   left: -150px;
   z-index: -2;
+  transform: rotate(-90deg);  
 }
 .about-section-image-container {
   flex: 0.9;
   margin-right: 1rem;
+  
 }
 .about-section-text-container {
   flex: 1;
@@ -153,7 +157,7 @@ nav {
 }
 .primary-subheading {
   font-weight: 700;
-  color: #fe9e0d;
+  color: #55CABF;
   font-size: 1.15rem;
 }
 .about-buttons-container {
@@ -267,7 +271,7 @@ nav {
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
-  color: #fe9e0d;
+  color: #55CABF;
 }
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
@@ -287,6 +291,9 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.img-work{
+  width: 50%;
 }
 .work-section-info {
   width: 290px;
@@ -318,7 +325,10 @@ nav {
   align-items: center;
   font-weight: 600;
 }
-
+.info-boxes-img-container{
+  height: 160px;
+  padding: 1.3rem 0;
+}
 .mobile-image{
   width: 300px;
   margin:0 auto
@@ -444,4 +454,14 @@ nav {
   }
 }
 
+
+.custom-shape-divider-top-1688493460 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
