@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  /* font-family: "Reem Kufi", sans-serif !important; */
+  
+
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -36,7 +39,7 @@ nav {
   margin-right: 3rem;
   text-decoration: none;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .primary-button {
@@ -75,6 +78,8 @@ nav {
 .home-image-section {
   max-width: 600px;
   flex: 1;
+  display: flex;
+  justify-content: end;
 }
 .home-text-section {
   flex: 1;
@@ -87,13 +92,14 @@ nav {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
   /* line-height: 5rem; */
-  max-width: 600px;
+  max-width: 620px;
 }
 .primary-text {
-  font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 500px;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  max-width: 520px;
   color: #6a6a6a;
   margin: 1.5rem 0rem;
+  text-align: justify;
 }
 .secondary-button {
   padding: 1rem 2.5rem;
@@ -109,13 +115,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+.download-link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #e48f0f;
+  background-color: #fe9e0d;
 }
 .about-section-container {
   margin-top: 20rem;
@@ -307,6 +319,11 @@ nav {
   font-weight: 600;
 }
 
+.mobile-image{
+  width: 300px;
+  margin:0 auto
+
+}
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;
@@ -426,3 +443,5 @@ nav {
     display: none;
   }
 }
+
+

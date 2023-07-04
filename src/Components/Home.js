@@ -1,8 +1,9 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
+import MobileHomeImage from "../Assets/mobile-home.png";
 import Navbar from "./Navbar";
-import { FiArrowRight } from "react-icons/fi";
+import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
   return (
@@ -14,18 +15,18 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+            Trở thành giáo viên Yoga của chính bạn
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Yoga là điệu nhảy của mỗi tế bào trên cơ thể, với âm nhạc là hơi thở tạo nên sự thanh thản và hài hòa bên trong tâm hồn
           </p>
+
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            <a className="download-link" href="https://firebasestorage.googleapis.com/v0/b/yoga-verse.appspot.com/o/app-release.apk?alt=media&token=5c1eb3c5-dfca-459c-866b-7c44e7b2413b">Tải ứng dụng ngay <FiDownload /></a>{" "}
           </button>
         </div>
-        <div className="home-image-section">
-          <img src={BannerImage} alt="" />
+        <div className="home-image-section ">
+          <img className="mobile-image" src={MobileHomeImage} alt="" />
         </div>
       </div>
     </div>

@@ -13,22 +13,21 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">Về chúng tôi</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Yoga Verse là giải pháp thông minh cho việc tập Yoga tại gia
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Yoga Verse được xây dựng dựa trên một hệ thống nhận dạng tư thế yoga đột phá, được xây dựng dựa trên một hệ thống nhận dạng tư thế yoga đột phá,giúp bạn thực hiện các tư thế yoga chính xác và tự tin hơn từng ngày
         </p>
-        <p className="primary-text">
+        {/* <p className="primary-text">
           Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
           facilisis at fringilla quam.
-        </p>
+        </p> */}
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">Tìm hiểu thêm</button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
+            <BsFillPlayCircleFill /> Xem video
           </button>
         </div>
       </div>
