@@ -11,19 +11,19 @@ export const Carousel = () => {
         {
             title: "Baseball",
             description:
-                "Baseball is a bat-and-ball sport played between two teams of nine players each, taking turns batting and fielding. The game occurs over the course of several plays, with each play generally beginning when a player on the fielding team, called the pitcher.",
+                "Khi chúng ta kết hợp thân, tâm và trí trong quá trình tập yoga, chúng ta tạo ra một sự cân bằng tổng thể và tạo điều kiện để trạng thái hạnh phúc và trạng thái tĩnh lặng tồn tại. Yoga giúp chúng ta giải phóng căng thẳng và lo lắng, tăng cường sức khỏe và giúp chúng ta tận hưởng cuộc sống một cách sâu sắc",
             icon: BlogOne,
         },
         {
             title: "Walking",
             description:
-                "Walking (also known as ambulation) is one of the main gaits of terrestrial locomotion among legged animals. Walking is typically slower than running and other gaits. ",
+                "Tư thế Đứng trên vai, hay còn được gọi là Sarvangasana, là một tư thế đảo ngược với cơ thể được nâng lên và được dựa trên vai. Tư thế này có nhiều lợi ích, bao gồm cải thiện tuần hoàn máu, thư giãn cơ và tăng cường sức mạnh cơ trên vai và cổ.",
             icon: BlogTwo,
         },
         {
             title: "Weights",
             description:
-                "Weightlifting generally refers to activities in which people lift weights, often in the form of dumbbells or barbells. People lift various kinds of weights for a variety of different reasons.",
+                "Yoga được coi là một phương pháp tập luyện tâm linh có nguồn gốc từ Ấn Độ cổ đại, kéo dài hàng ngàn năm. Cơ sở triết lý của Yoga nằm trong các bài học của 'Yoga Sutra'- một tác phẩm cổ điển của Veda Valmiki, một nhà triết học và nhà thơ Ấn Độ. Yoga Sutra định nghĩa yoga là kiểm soát ý thức để đạt được sự tự do tinh thần.",
             icon: BlogThree,
         },
     ];
@@ -95,7 +95,7 @@ export const CarouselItem = ({ item, width }) => {
     return (
         <div className="carousel-item" style={{ width: width }}>
             <div></div>
-            <img width="100px" height="100px" className="carousel-img" src={item.icon} alt="ok" />
+            <img className="carousel-img" src={item.icon} alt="ok" />
             <div className="carousel-item-text">{item.description}</div>
         </div>
     );
