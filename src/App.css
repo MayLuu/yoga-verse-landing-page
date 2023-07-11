@@ -312,6 +312,13 @@ nav {
 .work-section-info h2 {
   margin: 1rem 0rem;
 }
+.work-section-info p{
+  color: #767676;
+  font-weight: normal;
+  padding:0 0.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+}
 .work-section-bottom {
   margin-top: 5rem;
   display: flex;
@@ -333,6 +340,106 @@ nav {
   width: 300px;
   margin:0 auto
 
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* body {
+  margin: 0;
+  font-family: "Roboto";
+} */
+
+/* .App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #85a8c5;
+} */
+
+.carousel {
+  overflow: hidden;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  /* box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.15); */
+
+}
+
+.carousel-item-text {
+  width: 26%;
+  font-size: 1.15rem;
+  margin: 40px 0 40px 0;
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  color: #617d98;
+}
+.carousel-img {
+  width: 60%;
+  height: 75%;
+  /* padding: 0 20px 0 20px; */
+  
+  
+}
+.carousel-item > img{
+  border-radius: 16px;
+}
+
+/* final stage */
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px 20px;
+}
+
+.indicator-symbol {
+  color: #26343f;
+  
+}
+
+.indicator-symbol-active {
+  color: black;
+  /* background-color: brown; */
 }
 @media (max-width: 1000px) {
   .navbar-links-container a {

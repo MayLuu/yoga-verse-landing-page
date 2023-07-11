@@ -8,17 +8,17 @@ const Work = () => {
     {
       image: PickMeals,
       title: "Linh hoạt",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      text: "Ứng dụng giúp cho việc tập luyện của bạn sẵn sàng mọi lúc, mọi nơi. ",
     },
     {
       image: ChooseMeals,
       title: "Thông minh",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Tính năng hỗ trợ tập luyện tích hợp trí tuệ nhân tạo là điểm khác biệt so với ứng dụng cùng dòng ",
     },
     {
       image: DeliveryMeals,
       title: "Tiết kiệm",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Giá thành hấp dẫn dành cho mọi lứa tuổi có niềm say mê với tập luyện Yoga",
     },
   ];
   return (

@@ -23,7 +23,7 @@ const Home = () => {
           </p>
 
           <button className="secondary-button">
-            <a className="download-link" href="https://firebasestorage.googleapis.com/v0/b/yoga-verse.appspot.com/o/app-release.apk?alt=media&token=5c1eb3c5-dfca-459c-866b-7c44e7b2413b">Tải ứng dụng ngay <FiDownload /></a>{" "}
+            <a className="download-link" href="https://firebasestorage.googleapis.com/v0/b/yoga-verse.appspot.com/o/app-release.apk?alt=media&token=313ad020-7b0a-4ffa-97f8-dd6b6363c2c1">Tải ứng dụng ngay <FiDownload /></a>{" "}
           </button>
         </div>
         <div className="home-image-section ">
